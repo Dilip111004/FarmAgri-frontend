@@ -1,0 +1,99 @@
+/* src/App.css */
+
+
+/* App.css */
+.background {
+    /* background-image: url('./components/assest/paddy.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh; /* Make sure it covers the full view */
+    width: 100%;
+}
+/* App.css */
+/* App.css */
+body {
+   /* Path to your image */
+  background-size: cover; /* Ensures the image covers the whole screen */
+  background-position: center center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  height: 100%; /* Ensures the body takes up the full height of the viewport */
+  margin: 0; /* Removes default margin */
+}
+
+  
+
+/* Global Reset and Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f8fb;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings */
+h2, h4 {
+    color: #337ab7;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
